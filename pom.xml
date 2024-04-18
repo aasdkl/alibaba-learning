@@ -8,6 +8,7 @@
 		<module>old-stock</module>
 		<module>service-order</module>
 		<module>service-stock</module>
+		<module>service-product</module>
 	</modules>
 
 <!--	<parent>-->

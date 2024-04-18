@@ -14,8 +14,9 @@ public class OrderController {
 
     @RequestMapping("/add")
     public String order() {
+        String product = restTemplate.getForObject("http://service-product/product/get/12", String.class);
         System.out.println("下单成功");
         String msg = restTemplate.getForObject("http://service-stock/stock/desc", String.class);
-        return "order done > " + msg;
+        return "order done > " + product + " > " + msg;
     }
 }

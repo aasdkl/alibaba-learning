@@ -11,3 +11,10 @@ spring:
         password: nacos
         namespace: public
         group: DEV
+service-product:
+  ribbon:
+    NFLoadBalancerRuleClassName: loadbalance.MyRandomRule
+ribbon:
+  eager-load:
+    enabled: true
+    clients: service-product, service-stock
