@@ -9,7 +9,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>stock</artifactId>
+	<artifactId>service-stock</artifactId>
 
 	<properties>
 		<maven.compiler.source>9</maven.compiler.source>
