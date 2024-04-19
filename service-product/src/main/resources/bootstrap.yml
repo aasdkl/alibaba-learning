@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 127.0.0.1:8848
+        group: DEV
+        shared-configs:
+          - data-id: common-config.yaml # 配置中也是需要后缀名
+            group: DEV
+            refresh: true
