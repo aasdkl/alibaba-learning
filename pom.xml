@@ -9,6 +9,9 @@
 		<module>service-order</module>
 		<module>service-stock</module>
 		<module>service-product</module>
+		<module>seata-order</module>
+		<module>seata-stock</module>
+		<module>seate-account</module>
 	</modules>
 
 <!--	<parent>-->
